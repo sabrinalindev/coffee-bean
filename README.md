@@ -6,8 +6,8 @@ Coffee Bean is  a place that user can enter their coffee bean name, roast level.
 Check out here:
 Live: [site](https://coffee-bean-mdvy.onrender.com)
 
-![Landing Page](public/img/landingPage.jpeg)
-![Used Bean](public/img/usedBean.jpeg)
+![Landing Page](public/landingPage.jpeg)
+![Used Bean](public/usedBean.jpeg)
 
 ## Features
 
