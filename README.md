@@ -4,7 +4,7 @@ Coffee Bean is  a place that user can enter their coffee bean name, roast level.
 
 ## Demo
 Check out here:
-Live: [https://housetask-uqex.onrender.com/](https://housetask-uqex.onrender.com/)
+Live: [site](https://coffee-bean-mdvy.onrender.com)
 
 ![Landing Page](public/img/landingPage.jpeg)
 ![Used Bean](public/img/usedBean.jpeg)
