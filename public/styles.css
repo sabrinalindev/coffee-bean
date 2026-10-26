@@ -4,3 +4,12 @@ body{
 h3{
   margin-top: 40px;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
+}

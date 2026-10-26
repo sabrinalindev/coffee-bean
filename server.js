@@ -64,7 +64,7 @@ app.put('/coffeeBean', (req, res) => {
 
 
 app.delete('/coffeeBean', (req, res) => {
-  console.log(req.body.userID)
+  //onsole.log(req.body.userID)
   db.collection('coffee').findOneAndDelete({
     _id: new ObjectID(req.body.userID)
   }, (err, result) => {

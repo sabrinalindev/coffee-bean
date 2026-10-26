@@ -1,16 +1,23 @@
-![21 Savage](public/21savage.jpg)
+## Coffee Bean
 
-## Installation
+Coffee Bean is  a place that user can enter their coffee bean name, roast level. User also can enter the weight of the coffee bag so that know when to restore the coffee.
 
-1. Clone repo
-2. run `npm install`
+## Demo
+Check out here:
+Live: [https://housetask-uqex.onrender.com/](https://housetask-uqex.onrender.com/)
 
-## Usage
+![Landing Page](public/img/landingPage.jpeg)
+![Used Bean](public/img/usedBean.jpeg)
 
-1. run `npm run savage`
-2. Navigate to `localhost:3000`
+## Features
 
+- User can enter coffee bean name or origin, roast level and weights. 
+- Once user makes coffee, they would click "minus" button, then it would auto subtract 21g which is bean amount for one shot of expresso.
+- There is a delete button so user can remove coffee bean entry. 
 
-// "nodemon server.js"
-    // "savage":" --watch " (once have --watch nodemon can be removed)
-    // auto start the server.js
+## Built with
+
+- Node.js and Express
+- MongoDB with Mongoose
+- EJS templates
+- Plain JavaScript and CSS
