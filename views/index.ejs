@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Coffee Bean</h1>
+  <h2>Here is the list:</h2>
+
+
+  <h3>Coffee at Home</h3>
+  <ul>
+  <% for(var i=0; i<coffee.length; i++) {%>
+    <li >
+      <span data-msg-id="<%=coffee[i]._id %>">Coffee Name:<%= coffee[i].name %></span>
+      <span>Roast Level:<%= coffee[i].roastLevel %></span>
+      <span>remaining Grams:<%= coffee[i].remainingGrams %>g</span>
+      <!-- add minus and delete value -->
+      <span><i class="fa fa-circle-minus" aria-hidden="true"></i></span>
+      <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+    </li>
+  <% } %>
+  </ul>
+
+  <h2>Add a coffee</h2>
+
+  <form action="/coffeeBean" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="roastLevel" name="roastLevel">
+    <input type="number" placeholder="remainingGrams" name="remainingGrams">
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
